@@ -42,7 +42,7 @@ describe('Component CurrencyForm', () => {
   	expect(action).toHaveBeenCalledWith({ amount: parseInt(testObj.amount), from: testObj.from, to: testObj.to });
 		});	
 		// unmount component
-		cleanup()
+		cleanup();
 	}
 	
 });
